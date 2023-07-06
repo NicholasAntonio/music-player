@@ -20,6 +20,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  animation: entry 2s ease;
 }
 
 .wrapper {
@@ -28,6 +29,9 @@ body {
   border-radius: 18px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
   margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 
 .details {
@@ -225,5 +229,17 @@ p {
 @media screen and (max-width: 600px) {
   .wrapper {
     transform: scale(0.8);
+  }
+}
+
+
+@keyframes entry{
+  from{
+    transform: scale(0);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
   }
 }
