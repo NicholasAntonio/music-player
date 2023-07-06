@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Music Player</title>
   </head>
@@ -17,7 +23,7 @@
           <div class="track-name">Nome da música</div>
           <div class="track-artist">Artista</div>
         </div>
-        <div class="slide-container">
+        <div class="slider-container">
           <div class="current-time">00:00</div>
           <input
             type="range"
@@ -29,7 +35,7 @@
           />
           <div class="total-duration">00:00</div>
         </div>
-        <div class="slide-container">
+        <div class="slider-container">
           <i class="fa fa-volume-down"></i>
           <input
             type="range"
@@ -48,7 +54,7 @@
           <div class="prev-track" onclick="prevTrack()">
             <i class="fa fa-step-backward fa-2x"></i>
           </div>
-          <div class="playpause-track" onclick="playpauseTrack()">
+          <div class="playpause-track" onclick="playPauseTrack()">
             <i class="fa fa-play-circle fa-5x"></i>
           </div>
           <div class="next-track" onclick="nextTrack()">
